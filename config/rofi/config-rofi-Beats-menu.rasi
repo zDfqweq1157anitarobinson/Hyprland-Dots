@@ -5,11 +5,18 @@
 
 /* ---- Entry ---- */ 
 entry {
-  placeholder: "📻 Choose Media or Stations to play";
+  width: 17%;
+  placeholder: "📻 Choose Music Source";
+}
+
+/* ---- Window ---- */
+window {
+  width: 20%;
 }
 
 /* ---- Listview ---- */
 listview {
-  lines: 6;
-  scrollbar: true;
+  fixed-columns: false;
+  colums: 1;
+  lines: 2;
 }
